@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Padauk-Regular';
+  src: url('Padauk-Regular.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Padauk-Regular', sans-serif;
+  font-size: 1em;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+}
+
+.sniff {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  background-color: #F78D45;
+  width: 45%;
+  border: solid gold 5px;
+  border-radius: 25px;
+
+  margin: 10px 0 5px 0;
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.sniff p {
+	padding: 25px;
+}
+
+.sniff img {
+	padding: 5px;
+}
+
+.rhiannon {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: black;
+  width: 45%;
+  border: solid black 5px;
+  border-radius: 25px;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.rhiannon p {
+ padding-right: 50px;
+ color: white;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: #F78D45;
+  width: 45%;
+  border: solid gold 5px;
+  border-radius: 25px;
+  margin: 5px 0 5px 0;
+}
+
+.newsletter p {
+  padding: 10px;
+}
+
+.newsletter a {
+  color: black;
+}
+
+.website {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  background-color: lightblue;
+  width: 45%;
+  border: solid gold 5px;
+  border-radius: 25px;
+  margin: 0px 0 5px 0;
+}
+
+.website p {
+  padding: 10px;
+}
+
+.website a {
+  color: black;
+}
+
+.container2 {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  background-color: lightblue;
+  width: 45%;
+  border: solid gold 5px;
+  border-radius: 25px;
+  margin: 5px 0 5px 0;
+}
