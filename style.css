@@ -16,16 +16,6 @@
   font-size: 15pt;
 }
 
-/* newsletter and website text only */
-h1 {
-  font-family: "Flame-Bold", sans-serif;
-  font-size: 20pt;
-  letter-spacing: 3px;
-  padding: 8px;
-  color: white;
-  text-shadow: 4px 2px black;
-}
-
 .container {
   position: absolute;
   right: 0;
@@ -38,8 +28,8 @@ h1 {
 }
 
 a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .sniff, .rhiannon {
@@ -56,7 +46,7 @@ a {
 }
 
 .sniff p, .rhiannon p {
-	padding: 25px;
+  padding: 25px;
 }
 
 .sniff img {
@@ -84,6 +74,13 @@ a {
   border: solid gold 5px;
   border-radius: 25px;
   margin-top: 5px;
+
+  font-family: "Flame-Bold", sans-serif;
+  font-size: 20pt;
+  letter-spacing: 3px;
+  padding: 8px;
+  color: white;
+  text-shadow: 4px 2px black;
 }
 
 .website {
