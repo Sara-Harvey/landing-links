@@ -16,6 +16,16 @@
   font-size: 15pt;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-family: "Flame-Bold", sans-serif;
+  font-size: 20pt;
+}
+
 .container {
   position: absolute;
   right: 0;
@@ -25,11 +35,6 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .sniff, .rhiannon {
@@ -46,7 +51,7 @@ a {
 }
 
 .sniff p, .rhiannon p {
-  padding: 25px;
+	padding: 25px;
 }
 
 .sniff img {
@@ -75,8 +80,6 @@ a {
   border-radius: 25px;
   margin-top: 5px;
 
-  font-family: "Flame-Bold", sans-serif;
-  font-size: 20pt;
   letter-spacing: 3px;
   padding: 8px;
   color: white;
@@ -85,4 +88,64 @@ a {
 
 .website {
   background-color: lightblue;
+}
+
+/* newsletter page */
+.container2 {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 45%;
+  background-color: white;
+  color: black;
+  border: solid gold 5px;
+  border-radius: 25px;
+  margin: 5px 0 5px 0;
+  padding: 20px;
+}
+
+.issue-list a {
+  color: black;
+  padding: 10px;
+}
+
+.issue-list {
+  color: black;
+  padding: 10px;
+  line-height: 90%;
+}
+
+.button {
+  background-color: #FF9950;
+  color: black;
+  border: solid gold 5px;
+  border-radius: 20px;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+@media(max-width: 798px) {
+  .sniff, .rhiannon, .newsletter, .website, .newsletter-container {
+    width: 100%;
+  }
+
+  .main-nav {  
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 1; 
+  }  
 }
