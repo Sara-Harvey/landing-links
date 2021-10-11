@@ -8,99 +8,70 @@
   src: url('Flame-Bold.ttf') format('truetype');
 }
 
-html {
-  font-size: calc(60% + 0.8vmin);
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Flame-Regular", sans-serif;
-  font-size: 1rem;
-}
-
-body {
-  min-height: 100vh;
-}
-
-main {
-  max-width: 40rem;
-  margin: 0 auto;
+  font-size: 15pt;
 }
 
 a {
   text-decoration: none;
-}
-
-p {
-  font-family: "Flame-Bold", sans-serif;
-  font-size: .75rem;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.sniff {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  background: #ff9950;
-  border: solid gold 5px;
-  margin: 5px 0px 5px 0px;
-  border-radius: 25px;
-}
-
-.sniff_left {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.sniff_title, .sniff_package, .sniff_mail {
-  flex: 1;
-  display: flex;
-}
-
-.sniff_right {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.rhiannon {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  border-radius: 25px;
-  background-color: black;
   color: white;
 }
 
-.rhiannon_left, .rhiannon_right {
-  flex: 1;
+h1 {
+  font-family: "Flame-Bold", sans-serif;
+  font-size: 20pt;
+}
+
+.container {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.sniff, .rhiannon {
+  display: flex;
+  flex-direction: row wrap;
+  width: 45%;
+  border-radius: 25px;
+}
+
+.sniff {
+  background: #ff9950;
+  border: solid gold 5px;
+  margin: 5px 0px 5px 0px;
 }
 
 .sniff p, .rhiannon p {
-  padding: 25px;
+	padding: 25px;
 }
 
 .sniff img {
   padding-top: 5px;
 }
 
-.links {
-  flex: 1;
-  display: flex;
-  flex-direction: column;	
+.rhiannon {
+  background-color: black;
+}
+
+.rhiannon p {
+ color: white;
+}
+
+.rhiannon a {
+ color: gold;
 }
 
 .newsletter, .website {
-  flex: 1;
+  display: flex;
   align-items: center; 
   justify-content: center; 
   background-color: #ff9950;
